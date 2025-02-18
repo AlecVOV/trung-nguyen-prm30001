@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #00be5f;
+  --primary-color: #6f4e37;
   --primary-color-dark: #05a153;
   --secondary-color: #f9f9f9;
   --text-dark: #0f172a;
   --text-light: #64748b;
   --white: #ffffff;
+  --black: #000000;
   --max-width: 1200px;
 }
 
@@ -20,7 +21,7 @@
 .section__container {
   max-width: var(--max-width);
   margin: auto;
-  padding: 5rem 1rem;
+  padding: 2rem 1rem;
 }
 
 .section__header {
@@ -56,7 +57,7 @@
 }
 
 .section__nav span:hover {
-  color: var(--white);
+  color: var(--black);
   background-color: var(--primary-color);
   border-color: var(--primary-color);
 }
@@ -111,7 +112,7 @@ body {
 }
 
 .header {
-  background-image: url("https://images.unsplash.com/photo-1516306305827-b74eb3993a0a?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("/assets/trungnguyen_background.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -130,7 +131,7 @@ nav {
 .nav__logo a {
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--white);
+  color: var(--black);
 }
 
 .nav__links {
@@ -144,7 +145,7 @@ nav {
   padding: 5px;
   font-size: 1rem;
   font-weight: 500;
-  color: var(--white);
+  color: var(--black);
 }
 
 .link a:hover {
@@ -152,15 +153,15 @@ nav {
 }
 
 .header__container {
-  padding: 5rem 1rem 10rem;
+  padding: 5rem 1rem 20rem;
 }
 
 .header__container h1 {
-  margin-bottom: 4rem;
-  max-width: 1000px;
+  margin-bottom: 5rem;
+  max-width: 1300px;
   margin-inline: auto;
-  font-size: 3.5rem;
-  color: var(--white);
+  font-size: 3rem;
+  color: var(--black);
   text-align: center;
 }
 
@@ -200,37 +201,37 @@ nav {
   font-size: 0.9rem;
 }
 
-.trending__grid {
+.Product__grid {
   margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 
-.trending__card {
+.Product__card {
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
 }
 
-.trending__card img {
+.Product__card img {
   margin-bottom: 1rem;
   border-radius: 10px;
 }
 
-.trending__card p {
+.Product__card p {
   font-size: 0.9rem;
   color: var(--text-light);
 }
 
-.trending__card h4 {
+.Product__card h4 {
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--text-dark);
 }
 
-.trending__details {
+.Product__details {
   padding-block: 1rem 2rem;
   display: flex;
   align-items: center;
@@ -238,44 +239,44 @@ nav {
   gap: 1rem;
 }
 
-.trending__details p {
+.Product__details p {
   font-weight: 500;
   color: var(--text-dark);
 }
 
-.trending__details h3 {
+.Product__details h3 {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--text-dark);
 }
 
-.trending__ratings span {
+.Product__ratings span {
   font-size: 0.9rem;
   color: goldenrod;
 }
 
-.trending__ratings p {
+.Product__ratings p {
   text-align: right;
 }
 
-.trending__card h5 {
+.Product__card h5 {
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
   font-weight: 500;
   color: var(--text-dark);
 }
 
-.trending__card h5 span {
+.Product__card h5 span {
   font-size: 1.2rem;
   color: var(--primary-color);
 }
 
-.trending__card p span {
+.Product__card p span {
   font-size: 1.2rem;
   color: var(--primary-color);
 }
 
-.trending__card:hover {
+.Product__card:hover {
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -701,7 +702,7 @@ nav {
     padding: 0;
   }
 
-  .trending__grid {
+  .Product__grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
@@ -750,7 +751,7 @@ nav {
     gap: 2rem;
   }
 
-  .trending__grid {
+  .Product__grid {
     grid-template-columns: repeat(1, 1fr);
   }
 
