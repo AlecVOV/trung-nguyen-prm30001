@@ -101,6 +101,10 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: #000; 
+}
+
 html,
 body {
   scroll-behavior: smooth;
@@ -112,7 +116,7 @@ body {
 }
 
 .header {
-  background-image: url("assets/trungnguyen_background.jpg");
+  background-image: url("./assets/trungnguyen_background.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
